@@ -1,0 +1,24 @@
+<h3>Samszone Co.</h3>
+<em><strong>Please either search an item, select an option from the drop down menu, or an inventory option.<strong><em>
+<br><em><strong>For the inventory, either print the whole inventory from the dropdown menu, or search a range (ex: x,y).  If printing a range, type: "x,y" with x and y representing the start and end points you would like to view.<strong><em><br>
+
+<form name="main" method="post"> 
+<table>
+  <tr><th><label for="line2">Print inventory</label></th><td><input id="line2" name="line2" type="text"/></td></tr>
+  <tr><th><label for="line">Search item</label></th><td><input id="line" name="line" type="text"/></td></tr>
+
+  <tr><th><label for="pulldown">Print your choice:</label></th><td><select id="pulldown" name="pulldown">
+  <option value="Nothing">Nothing</option>
+  <option value="Book">Show Books</option>
+  <option value="Cd_vinyl">Show Cd/vinyls</option>
+  <option value="Collectible">Show Collectibles</option>
+  <option value="Electronics">Show Electronics</option>
+  <option value="Fashion">Show Fashion</option>
+  <option value="Home_garden">Show Home/garden</option>
+  <option value="Show inventory">Show inventory</option>
+  <option value="Show inventory value">Show inventory value</option>
+
+</select>
+
+</table>
+<input type="submit" />    </form>
